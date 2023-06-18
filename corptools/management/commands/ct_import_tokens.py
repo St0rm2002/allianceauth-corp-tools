@@ -24,7 +24,7 @@ class Command(BaseCommand):
         if options.get('minimal_scopes', False):
             char_scopes = ['esi-assets.read_assets.v1',
                            'esi-calendar.read_calendar_events.v1',
-                           'esi-characters.read_contacts.v1',
+                           'esi-contracts.read_character_contracts.v1',
                            'esi-characters.read_notifications.v1',
                            'esi-characters.read_titles.v1',
                            'esi-clones.read_clones.v1',
