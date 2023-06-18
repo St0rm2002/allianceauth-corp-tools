@@ -111,7 +111,7 @@ def get_character_scopes():
     if CT_CHAR_CONTACTS_MODULE:
         _scopes += [
             # Contacts
-            'esi-characters.read_contacts.v1',
+            'esi-contracts.read_character_contracts.v1',
         ]
 
     if CT_CHAR_NOTIFICATIONS_MODULE:
